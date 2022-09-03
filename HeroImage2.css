@@ -1,0 +1,44 @@
+.hero-img{
+    width: 100%;
+    background: rgba(0, 0, 0,0.5);
+    height: 60vh;
+    position: relative;
+}
+.hero-img::before{
+    content: "";
+    background: url("https://media.istockphoto.com/photos/back-rear-view-of-young-asian-woman-freelance-data-scientist-work-at-picture-id1313496084?b=1&k=20&m=1313496084&s=170667a&w=0&h=qk4ImnQb7NkaQPvf3HZm5uF1tlr-eWipdwU6wIk0i8g=");
+background-size: cover;
+background-position: center top;
+height: 150%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+
+.heading{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-img h1{
+    font-size: 2.4rem;
+
+}
+.her-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (max-width: 640px){
+    .hero-img h1{
+        font-size: 2rem;
+    
+    }
+   
+
+}
